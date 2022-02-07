@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.os.CountDownTimer
 import android.view.WindowManager
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.content.res.ResourcesCompat
 
 class SplashActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -15,6 +16,9 @@ class SplashActivity : AppCompatActivity() {
     }
 
     private fun initViews() {
+
+//        val fontFamily = ResourcesCompat.getFont(this, R.font.chilanka)
+//        font_textview.typeface = fontFamily
         countDownTimer()
     }
 

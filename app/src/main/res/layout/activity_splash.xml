@@ -14,10 +14,13 @@
         android:layout_height="match_parent">
 
         <TextView
+
+            android:id="@+id/tv_main"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Instagram"
-            android:textSize="30sp"
+            android:fontFamily="@font/billabong"
+            android:textSize="50sp"
             android:textColor="#ffffff"/>
 
 
